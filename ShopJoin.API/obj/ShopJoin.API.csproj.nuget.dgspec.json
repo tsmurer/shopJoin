@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Programação\\Em progresso\\ShopJoin\\ShopJoin.API\\ShopJoin.API.csproj": {}
+    "D:\\Programação\\Em progresso\\ShopJoin\\ShopJoin.API\\ShopJoin.API.csproj": {}
   },
   "projects": {
-    "d:\\Programação\\Em progresso\\ShopJoin\\ShopJoin.API\\ShopJoin.API.csproj": {
+    "D:\\Programação\\Em progresso\\ShopJoin\\ShopJoin.API\\ShopJoin.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Programação\\Em progresso\\ShopJoin\\ShopJoin.API\\ShopJoin.API.csproj",
+        "projectUniqueName": "D:\\Programação\\Em progresso\\ShopJoin\\ShopJoin.API\\ShopJoin.API.csproj",
         "projectName": "ShopJoin.API",
-        "projectPath": "d:\\Programação\\Em progresso\\ShopJoin\\ShopJoin.API\\ShopJoin.API.csproj",
+        "projectPath": "D:\\Programação\\Em progresso\\ShopJoin\\ShopJoin.API\\ShopJoin.API.csproj",
         "packagesPath": "C:\\Users\\Tiago\\.nuget\\packages\\",
-        "outputPath": "d:\\Programação\\Em progresso\\ShopJoin\\ShopJoin.API\\obj\\",
+        "outputPath": "D:\\Programação\\Em progresso\\ShopJoin\\ShopJoin.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[3.1.0, )"

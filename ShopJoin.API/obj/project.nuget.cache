@@ -1,15 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "WddQJznK0ZuDqNmnUJlHYdE5xyynIsJZF0/uZe6BiewZfHPH2Ohy0C2mFiPhO8+a6SysyMHLTSs7gVFnIlHUzg==",
+  "dgSpecHash": "1gZGW+tnk7Beiww9aFhLZ3P4fh3L1bPxtUvVXF5FPBzeSm0FrgWbafgA10Vz0aleWN3TX9ongqHjvHtFbqRMHQ==",
   "success": true,
   "projectFilePath": "D:\\Programação\\Em progresso\\ShopJoin\\ShopJoin.API\\ShopJoin.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tiago\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Tiago\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.0\\microsoft.entityframeworkcore.3.1.0.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.0\\microsoft.entityframeworkcore.abstractions.3.1.0.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.0\\microsoft.entityframeworkcore.analyzers.3.1.0.nupkg.sha512",
+    "C:\\Users\\Tiago\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.0\\microsoft.entityframeworkcore.design.3.1.0.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.0\\microsoft.entityframeworkcore.relational.3.1.0.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.0\\microsoft.extensions.caching.abstractions.3.1.0.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.0\\microsoft.extensions.caching.memory.3.1.0.nupkg.sha512",

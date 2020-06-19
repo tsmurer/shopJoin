@@ -28,3 +28,4 @@ D:\Programação\Em progresso\ShopJoin\ShopJoin.API\bin\Debug\netcoreapp3.1\Newt
 D:\Programação\Em progresso\ShopJoin\ShopJoin.API\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
 D:\Programação\Em progresso\ShopJoin\ShopJoin.API\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
 D:\Programação\Em progresso\ShopJoin\ShopJoin.API\obj\Debug\netcoreapp3.1\ShopJoin.API.csproj.CopyComplete
+D:\Programação\Em progresso\ShopJoin\ShopJoin.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
