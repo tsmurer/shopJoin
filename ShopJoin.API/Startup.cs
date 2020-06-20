@@ -30,6 +30,8 @@ namespace ShopJoin.API
         {
             services.AddControllers();
             services.AddDbContext<DataContext>(x => x.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddMvc();
+            services.AddCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,6 +44,8 @@ namespace ShopJoin.API
 
             //app.UseHttpsRedirection();
 
+            app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+            
             app.UseRouting();
 
             app.UseAuthorization();
@@ -50,6 +54,8 @@ namespace ShopJoin.API
             {
                 endpoints.MapControllers();
             });
+
+            
         }
     }
 }
