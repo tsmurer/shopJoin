@@ -1,0 +1,10 @@
+@import '../../styles.scss';
+
+.navbar {
+    display: block;
+    position: relative;
+    height: 48px;
+    width: 100%;
+    top: 0;
+    background-color: $green; //mudar!
+}
