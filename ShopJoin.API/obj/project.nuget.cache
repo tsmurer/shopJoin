@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nyfQw9WPjMHjpzJ8wMszK74C0jGQl4+Nypk/MvX6Nh6qqD5bVK9h2T3TPDzPUvGAtupU0HVEha3B1PZjup4uJQ==",
+  "dgSpecHash": "1gZGW+tnk7Beiww9aFhLZ3P4fh3L1bPxtUvVXF5FPBzeSm0FrgWbafgA10Vz0aleWN3TX9ongqHjvHtFbqRMHQ==",
   "success": true,
-  "projectFilePath": "D:\\Programação\\Em progresso\\shopjoin\\ShopJoin.API\\ShopJoin.API.csproj",
+  "projectFilePath": "D:\\Programação\\Em progresso\\ShopJoin\\ShopJoin.API\\ShopJoin.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tiago\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

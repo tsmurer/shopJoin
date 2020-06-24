@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programação\\Em progresso\\shopjoin\\ShopJoin.API\\ShopJoin.API.csproj": {}
+    "D:\\Programação\\Em progresso\\ShopJoin\\ShopJoin.API\\ShopJoin.API.csproj": {}
   },
   "projects": {
-    "D:\\Programação\\Em progresso\\shopjoin\\ShopJoin.API\\ShopJoin.API.csproj": {
+    "D:\\Programação\\Em progresso\\ShopJoin\\ShopJoin.API\\ShopJoin.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programação\\Em progresso\\shopjoin\\ShopJoin.API\\ShopJoin.API.csproj",
+        "projectUniqueName": "D:\\Programação\\Em progresso\\ShopJoin\\ShopJoin.API\\ShopJoin.API.csproj",
         "projectName": "ShopJoin.API",
-        "projectPath": "D:\\Programação\\Em progresso\\shopjoin\\ShopJoin.API\\ShopJoin.API.csproj",
+        "projectPath": "D:\\Programação\\Em progresso\\ShopJoin\\ShopJoin.API\\ShopJoin.API.csproj",
         "packagesPath": "C:\\Users\\Tiago\\.nuget\\packages\\",
-        "outputPath": "D:\\Programação\\Em progresso\\shopjoin\\ShopJoin.API\\obj\\",
+        "outputPath": "D:\\Programação\\Em progresso\\ShopJoin\\ShopJoin.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
