@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "qn1AHtUSRhNbvlj5oTspu6JeAi6LhBlobgZL/q4W87rvbUigm39kcON8g1j5HvDzc5grZSf+d4BS/2VHio5CgQ==",
+  "dgSpecHash": "hzzWYwa16+tWs2F1njUdC3XJ7e7taaoI62GLTBtlwhNr+0YozhYwLTLKylZj28zSbZrWstFRKEdrIC5GP/OBFA==",
   "success": true,
   "projectFilePath": "D:\\Programação\\Em progresso\\ShopJoin\\ShopJoin.API\\ShopJoin.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Tiago\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.0\\microsoft.aspnetcore.authentication.jwtbearer.3.1.0.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -25,6 +26,8 @@
     "C:\\Users\\Tiago\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.0\\microsoft.extensions.primitives.3.1.0.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.6.0\\microsoft.identitymodel.jsonwebtokens.6.6.0.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\microsoft.identitymodel.logging\\6.6.0\\microsoft.identitymodel.logging.6.6.0.nupkg.sha512",
+    "C:\\Users\\Tiago\\.nuget\\packages\\microsoft.identitymodel.protocols\\5.5.0\\microsoft.identitymodel.protocols.5.5.0.nupkg.sha512",
+    "C:\\Users\\Tiago\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\5.5.0\\microsoft.identitymodel.protocols.openidconnect.5.5.0.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.6.0\\microsoft.identitymodel.tokens.6.6.0.nupkg.sha512",
     "C:\\Users\\Tiago\\.nuget\\packages\\mysqlconnector\\0.61.0\\mysqlconnector.0.61.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
