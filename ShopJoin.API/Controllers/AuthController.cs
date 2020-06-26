@@ -22,14 +22,13 @@ namespace ShopJoin.API.Controllers
         {
             //validate request
 
-            userForRegisterDto.Username = userForRegisterDto.Username.ToLower();
-
             if (await _repo.UserExists(userForRegisterDto.Username))
                 return BadRequest("Username already exists"); 
             
             var userToCreate = new User
             {
-                Username = userForRegisterDto.Username
+                Username = userForRegisterDto.Username,
+                Name = userForRegisterDto.Name
             };
 
             var createdUser = await _repo.Register(userToCreate, userForRegisterDto.Password);
@@ -37,5 +36,7 @@ namespace ShopJoin.API.Controllers
             return StatusCode(201);
         } 
 
+        //[HttpPost("login")]
+        //public async Task<IActionResult> Login(UserForLoginDto userForLoginDto)
     }
 }

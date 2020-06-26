@@ -65,7 +65,8 @@ namespace ShopJoin.API.Data
 
         public async Task<bool> UserExists(string username)
         {
-            if(await _context.users.AnyAsync(x => x.Username == username))
+            string username_lower = username.ToLower();
+            if(await _context.users.AnyAsync(x => x.Username.ToLower() == username_lower))
                 return true;
                 
             return false;
