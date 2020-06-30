@@ -2,3 +2,5 @@
 @import 'styles/buttons';
 @import 'styles/variables';
 @import 'styles/global_rules';
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { LoginComponent } from './login/login.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CustomMaterialModule } from './material/material-imports.module';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { LoginComponent } from './login/login.component';
    ],
    imports: [
       BrowserModule,
-      HttpClientModule
+      HttpClientModule,
+      BrowserAnimationsModule,
+      CustomMaterialModule
    ],
    providers: [],
    bootstrap: [
