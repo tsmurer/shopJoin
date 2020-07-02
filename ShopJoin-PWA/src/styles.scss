@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'custom_styles/base/colors';
+@import 'custom_styles/base/reset';
+@import 'custom_styles/base/typography';
+
+@import 'custom_styles/components/navbar';
+
+@import 'custom_styles/layout/containers';
