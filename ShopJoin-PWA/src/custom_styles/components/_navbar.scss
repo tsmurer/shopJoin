@@ -19,15 +19,19 @@
         float: left;
         margin-left: 2rem;
         line-height: .75;
+        user-select: none;
     }
 
     &_nav {
         float: right;
-        vertical-align: middle;
+        line-height: 1.4;
         margin-right: 2rem;
 
         li {
             margin: 0 2rem;
+            height: 100%;
+            text-transform: uppercase;
+            cursor: pointer;
         }
     }
 }
