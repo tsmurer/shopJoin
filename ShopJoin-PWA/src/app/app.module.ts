@@ -3,11 +3,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+
 import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { CustomMdcModule } from './mdc.module';
 
 const appRoutes: Routes = [
    { path: 'login', component: LoginComponent },
@@ -20,12 +22,13 @@ const appRoutes: Routes = [
       UserComponent,
       NavigationComponent,
       LoginComponent,
-      SignupComponent
+      SignupComponent,
    ],
    imports: [
       BrowserModule,
       HttpClientModule,
-      RouterModule.forRoot(appRoutes)
+      RouterModule.forRoot(appRoutes),
+      CustomMdcModule
    ],
    providers: [],
    bootstrap: [
