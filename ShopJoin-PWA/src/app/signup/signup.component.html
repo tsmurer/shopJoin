@@ -7,6 +7,19 @@
     (ngSubmit) = "register()">
     <mdc-form-field fluid>
       <mdc-text-field 
+      class="demo-card_input" 
+      name="name" 
+      label="Name" 
+      type='text' 
+      outlined 
+      required 
+      [(ngModel)]="model.name"
+      #username="ngModel">
+    
+      </mdc-text-field>
+    </mdc-form-field>
+    <mdc-form-field fluid>
+      <mdc-text-field 
         class="demo-card_input" 
         name="email" 
         label="Email" 
