@@ -30,12 +30,12 @@ namespace ShopJoin.API.Controllers
         {
             //validate request
 
-            if (await _repo.UserExists(userForRegisterDto.Username))
-                return BadRequest("Username already exists"); 
+            if (await _repo.UserExists(userForRegisterDto.Email))
+                return BadRequest("Email already exists"); 
             
             var userToCreate = new User
             {
-                Username = userForRegisterDto.Username,
+                Email = userForRegisterDto.Email,
                 Name = userForRegisterDto.Name
             };
 
@@ -47,7 +47,7 @@ namespace ShopJoin.API.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login(UserForLoginDto userForLoginDto)
         {
-            var userFromRepo = await _repo.Login(userForLoginDto.Username, userForLoginDto.Password);
+            var userFromRepo = await _repo.Login(userForLoginDto.Email, userForLoginDto.Password);
 
             if (userFromRepo == null)
                 return Unauthorized();
@@ -55,7 +55,7 @@ namespace ShopJoin.API.Controllers
             var claims = new[]
             {
                 new Claim(ClaimTypes.NameIdentifier, userFromRepo.Id.ToString()),
-                new Claim(ClaimTypes.Name, userFromRepo.Username)
+                new Claim(ClaimTypes.Name, userFromRepo.Email)
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config.GetSection("AppSettings:Token").Value));

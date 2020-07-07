@@ -1,6 +1,6 @@
 //MIXINS ARE CALLES USING '@include name(parameters)'
 
-@mixin center($horizontal:true, $vertical: true){
+@mixin center($horizontal: true, $vertical: true){
     position: absolute;
     @if($horizontal and $vertical) {
         top: 50%;

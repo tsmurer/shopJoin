@@ -10,6 +10,8 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { CustomMdcModule } from './mdc.module';
+import { FormsModule } from '@angular/forms';
+import { AuthService } from './_services/auth.service';
 
 const appRoutes: Routes = [
    { path: 'login', component: LoginComponent },
@@ -28,9 +30,12 @@ const appRoutes: Routes = [
       BrowserModule,
       HttpClientModule,
       RouterModule.forRoot(appRoutes),
-      CustomMdcModule
+      CustomMdcModule,
+      FormsModule
    ],
-   providers: [],
+   providers: [
+      AuthService
+   ],
    bootstrap: [
       AppComponent
    ]

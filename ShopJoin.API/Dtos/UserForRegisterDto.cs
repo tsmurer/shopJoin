@@ -5,7 +5,7 @@ namespace ShopJoin.API.Dtos
     public class UserForRegisterDto
     {
         [Required]
-        public string Username { get; set; }
+        public string Email { get; set; }
 
         [Required]
         public string Name { get; set; }
