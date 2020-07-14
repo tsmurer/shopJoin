@@ -15,6 +15,7 @@ import { AuthService } from './_services/auth.service';
 import { HomepageComponent } from './homepage/homepage.component';
 
 const appRoutes: Routes = [
+   { path: '', component: HomepageComponent},
    { path: 'login', component: LoginComponent },
    { path: 'signup', component: SignupComponent}
 ];
